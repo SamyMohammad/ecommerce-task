@@ -53,7 +53,7 @@ class _LoginFormState extends State<LoginForm> {
           autocorrect: false,
           isHidden: false,
           hintText: AppStrings.userName,
-          textInputType: TextInputType.phone,
+          textInputType: TextInputType.text,
           maxLines: 1,
           validator: (value) {
             if (value == null || value.isEmpty) {
