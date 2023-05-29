@@ -30,7 +30,7 @@ class RouteGenerator {
       case Routes.loginRoute:
         return MaterialPageRoute(
             builder: (_) => LoginScreen(onSignInSuccess: () {
-                  AppNavigator.instance.removeUntil(const HomeScreen());
+                  AppNavigator.instance.removeUntil(const BottomNavbar());
                 }));
 
       case Routes.register1Route:
